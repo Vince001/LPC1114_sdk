@@ -40,10 +40,10 @@ int main(void)
 
 		delay( 5000 );
 
-		GPIOSetValue( 2, 0, 1 );
-        GPIOSetValue( 2, 1, 1 );
-		GPIOSetValue( 2, 2, 1 );
-        GPIOSetValue( 2, 3, 1 );
+		GPIOSetValue( 2, i%4, 1 );
+        //GPIOSetValue( 2, 1, 1 );
+		//GPIOSetValue( 2, 2, 1 );
+        //GPIOSetValue( 2, 3, 1 );
 
 		delay( 5000 );
 	}
